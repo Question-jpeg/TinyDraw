@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A6E05B2B1B877E007BD928 /* Color-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6E05A2B1B877E007BD928 /* Color-Codable.swift */; };
+		78A6E05D2B1B8BDE007BD928 /* Path-Curving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A6E05C2B1B8BDE007BD928 /* Path-Curving.swift */; };
+		78C1B4DB2B19D8E40092A511 /* TinyDrawApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1B4DA2B19D8E40092A511 /* TinyDrawApp.swift */; };
+		78C1B4DD2B19D8E40092A511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1B4DC2B19D8E40092A511 /* ContentView.swift */; };
+		78C1B4DF2B19D8E50092A511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C1B4DE2B19D8E50092A511 /* Assets.xcassets */; };
+		78C1B4E22B19D8E50092A511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C1B4E12B19D8E50092A511 /* Preview Assets.xcassets */; };
+		78C1B4E92B19D8F00092A511 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1B4E82B19D8F00092A511 /* Stroke.swift */; };
+		78C1B4EB2B19D9210092A511 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1B4EA2B19D9210092A511 /* Drawing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78A6E0592B1B7BE0007BD928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78A6E05A2B1B877E007BD928 /* Color-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Codable.swift"; sourceTree = "<group>"; };
+		78A6E05C2B1B8BDE007BD928 /* Path-Curving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path-Curving.swift"; sourceTree = "<group>"; };
+		78C1B4D72B19D8E40092A511 /* TinyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C1B4DA2B19D8E40092A511 /* TinyDrawApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyDrawApp.swift; sourceTree = "<group>"; };
+		78C1B4DC2B19D8E40092A511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78C1B4DE2B19D8E50092A511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C1B4E12B19D8E50092A511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78C1B4E82B19D8F00092A511 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		78C1B4EA2B19D9210092A511 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C1B4D42B19D8E40092A511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C1B4CE2B19D8E40092A511 = {
+			isa = PBXGroup;
+			children = (
+				78C1B4D92B19D8E40092A511 /* TinyDraw */,
+				78C1B4D82B19D8E40092A511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C1B4D82B19D8E40092A511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C1B4D72B19D8E40092A511 /* TinyDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C1B4D92B19D8E40092A511 /* TinyDraw */ = {
+			isa = PBXGroup;
+			children = (
+				78A6E0592B1B7BE0007BD928 /* Info.plist */,
+				78C1B4DA2B19D8E40092A511 /* TinyDrawApp.swift */,
+				78C1B4DC2B19D8E40092A511 /* ContentView.swift */,
+				78C1B4E82B19D8F00092A511 /* Stroke.swift */,
+				78C1B4EA2B19D9210092A511 /* Drawing.swift */,
+				78A6E05C2B1B8BDE007BD928 /* Path-Curving.swift */,
+				78A6E05A2B1B877E007BD928 /* Color-Codable.swift */,
+				78C1B4DE2B19D8E50092A511 /* Assets.xcassets */,
+				78C1B4E02B19D8E50092A511 /* Preview Content */,
+			);
+			path = TinyDraw;
+			sourceTree = "<group>";
+		};
+		78C1B4E02B19D8E50092A511 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78C1B4E12B19D8E50092A511 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C1B4D62B19D8E40092A511 /* TinyDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C1B4E52B19D8E50092A511 /* Build configuration list for PBXNativeTarget "TinyDraw" */;
+			buildPhases = (
+				78C1B4D32B19D8E40092A511 /* Sources */,
+				78C1B4D42B19D8E40092A511 /* Frameworks */,
+				78C1B4D52B19D8E40092A511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyDraw;
+			productName = TinyDraw;
+			productReference = 78C1B4D72B19D8E40092A511 /* TinyDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C1B4CF2B19D8E40092A511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					78C1B4D62B19D8E40092A511 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 78C1B4D22B19D8E40092A511 /* Build configuration list for PBXProject "TinyDraw" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C1B4CE2B19D8E40092A511;
+			productRefGroup = 78C1B4D82B19D8E40092A511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C1B4D62B19D8E40092A511 /* TinyDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C1B4D52B19D8E40092A511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C1B4E22B19D8E50092A511 /* Preview Assets.xcassets in Resources */,
+				78C1B4DF2B19D8E50092A511 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C1B4D32B19D8E40092A511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A6E05B2B1B877E007BD928 /* Color-Codable.swift in Sources */,
+				78A6E05D2B1B8BDE007BD928 /* Path-Curving.swift in Sources */,
+				78C1B4EB2B19D9210092A511 /* Drawing.swift in Sources */,
+				78C1B4DD2B19D8E40092A511 /* ContentView.swift in Sources */,
+				78C1B4E92B19D8F00092A511 /* Stroke.swift in Sources */,
+				78C1B4DB2B19D8E40092A511 /* TinyDrawApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		78C1B4E32B19D8E50092A511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78C1B4E42B19D8E50092A511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C1B4E62B19D8E50092A511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyDraw/Preview Content\"";
+				DEVELOPMENT_TEAM = Z75LW57MVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TinyDraw/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kltechpy.TinyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C1B4E72B19D8E50092A511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyDraw/Preview Content\"";
+				DEVELOPMENT_TEAM = Z75LW57MVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TinyDraw/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kltechpy.TinyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C1B4D22B19D8E40092A511 /* Build configuration list for PBXProject "TinyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C1B4E32B19D8E50092A511 /* Debug */,
+				78C1B4E42B19D8E50092A511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C1B4E52B19D8E50092A511 /* Build configuration list for PBXNativeTarget "TinyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C1B4E62B19D8E50092A511 /* Debug */,
+				78C1B4E72B19D8E50092A511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C1B4CF2B19D8E40092A511 /* Project object */;
+}
